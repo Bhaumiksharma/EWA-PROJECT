@@ -1,0 +1,9 @@
+# Database connection (local MySQL)
+db.driver=com.mysql.cj.jdbc.Driver
+db.url=jdbc:mysql://localhost:3306/smart_parking?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata
+db.username=root
+# Change this to your local MySQL password. Do not commit real credentials.
+db.password=change_me
+
+# Which BillingService is injected into ParkingService: regular or weekend
+billing.policy=regular

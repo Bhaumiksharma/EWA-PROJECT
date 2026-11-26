@@ -1,0 +1,7 @@
+target/
+cp.txt
+dump.txt
+src/main/resources/application.properties
+.idea/
+*.iml
+.vscode/
